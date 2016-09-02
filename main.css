@@ -1,0 +1,16 @@
+.element {
+    margin-top: 48vh;
+    margin-left: 50vh;
+    transform: translate(-25%,-50%);
+}
+body{
+    background-image: url(background.png);
+    background-size: 100% 70%;
+    font-family: 'Playfair Display', serif;
+    font-size: 200%;
+}
+p{
+    text-align: right;
+    margin-right: -20%;
+    margin-top: -10%;
+}

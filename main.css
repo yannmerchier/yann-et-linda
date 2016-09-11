@@ -7,9 +7,10 @@ html {
 }
 
 .element {
-    margin-top: 48vh;
-    margin-left: 50vh;
-    transform: translate(-25%,-50%);
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 body{
     background-color: transparent   ;  
@@ -21,8 +22,9 @@ body{
     left:0px;
     right:0px;  
 }
+    
 p{
     text-align: right;
-    margin-right: -24%;
+    margin-right: -11%;
     margin-top: -10%;
 }

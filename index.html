@@ -1,16 +1,174 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Yann & Linda - 25 Mai 2017</title>
+    <title>Linda & Yann</title>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-    <div class="element">
-        <img src="picture.png">
-        <p>TO BE CONTINUED...</p>
+
+<header class="container-fluid">
+  <div class="row">
+    <h1 class="col-sm-5">
+      Linda & Yann
+    </h1>
+    <nav class="col-sm-6 text-right">
+        <a href="#myAnchor1" rel="" id="anchor1" class="anchorLink">Accès</a>
+        <a href="#myAnchor2" rel="" id="anchor2" class="anchorLink">Où Dormir</a>
+        <a href="#myAnchor3" rel="" id="anchor3" class="anchorLink">RVSP</a>
+        <p>Programme</p>
+        <p>Liste de mariage</p>
+        <a href="#myAnchor4" rel="" id="anchor4" class="anchorLink">Contact</a>
+    </nav>
+    <a href="index_german.html"><img src="german_flag.png"></a>
+  </div>
+  </header>
+
+<div class="slider container">
+
+    <div class="slide active-slide">
+            <img class="img-responsive center-block" src="bulli_sweden.png"/>
     </div>
+    
+    <div class="slide">
+            <img class="img-responsive center-block" src="logo.png"/>
+    </div>
+    
+    <div class="slide">
+            <img class="img-responsive center-block" src="save_the_date_with_background.png"/>
+    </div>
+</div>
+
+<div class="slider-nav container">
+    <a href="#" class="arrow-prev"><img src="arrow_prev.png"></a>
+<!--    http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png-->
+    <ul class="slider-dots">
+        <li class="dot active-dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+    </ul>
+    <a href="#" class="arrow-next"><img src="arrow_next.png"></a>
+<!--    http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png-->
+</div>
+    
+<section class="container">
+    <a name="myAnchor1" id="anchor1"></a>
+    <p class="title"><img src="leaves_left.png">Accès<img src="leaves_right.png"></p>
+    <div class="row">
+        <figure class="col-sm-4">
+            <p class="subtitle">COMMENT?</p>
+            <div class="box">
+                <div class="span">
+                    <p><img src="car_icon.png" alt="" /> 1h30 depuis Paris, 30km après Chartres</p>
+                    <p><img src="train_icon.png" alt="" /> Chartres (27km) / Courville-sur-Eure (5km)</p>
+                    <p><img src="plane_icon.png" alt="" /> Aéroport Orly (120km)</p>
+                </div>
+            </div>
+        </figure>
+        <figure class="col-sm-4">
+            <p class="subtitle">GOOGLE MAP</p>
+            <div class="box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2729.312345665823!2d1.1792887137561856!3d48.46622314102601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e3ede462202c4b%3A0x58342a355fc62c8b!2sLe+Moulin+Ste+Agn%C3%A8s!5e0!3m2!1sfr!2sfr!4v1474832067240" width="360" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </figure>
+        <figure class="col-sm-4">
+            <p class="subtitle">COORDONNEES</p>
+            <div class="box">
+                <p><img src="roadsign_icon.png" alt=""> Le Moulin St Agnès</p>
+                <p><img src="mail_icon.png" alt=""> Moulin du Pré, 28190 Landelles</p>
+                <p><img src="compass_icon.png" alt=""> GPS: 48.466289 , 1.181442</p>
+            </div>
+        </figure>
+    </div>
+</section>
+<section class="container">
+    <a name="myAnchor2" id="anchor2"></a>
+    <p class="title"><img src="leaves_left.png">Où Dormir<img src="leaves_right.png"></p>
+    <div class="row">
+        <figure class="col-sm-4">
+            <p class="subtitle">QUELQUES CHAMBRES D'HÔTES</p>
+            <div class="box chambre">
+                <p class="name">M. Bouin</p>
+                <p>28190 Landelles</p>
+                <p class="tel">Tel: 02 37 23 36 35</p>
+                <p class="name">M. Van de Velde Geert et Mme Van Daele Katrien</p>
+                <p>La Grange du Bois 28190 Pontgouin</p>
+                <p class="tel">Tel: 06 89 83 19 89</p>
+                <p class="name">M. et Mme Guinard</p>
+                <p>38, rue Jean Moulin, Chazay 28300 St Aubin-des-Bois</p>
+                <p>Tel: 02 37 32 80 53</p>
+                <a target="_blank" href="http://www.erablais.com">www.erablais.com</a>
+            </div>
+        </figure>
+        <figure class="col-sm-4">
+            <p class="subtitle">GÎTES EURE-ET-LOIR</p>
+            <div class="box">
+                <div class="box-image">
+                    <a target="_blank" href="http://www.reservation-tourisme28.com/fr/hebergements/index.html"><img src="eure_et_loir.png"></a>
+                </div>
+            </div>
+        </figure>
+        <figure class="col-sm-4">
+            <p class="subtitle" >AIRBNB</p>
+            <div class="box">
+                <div class="box-image">
+                   <a target="_blank" href="https://www.airbnb.fr/s/Landelles?guests=1&checkin=25%2F05%2F2017&checkout=26%2F05%2F2017&search_by_map=true&sw_lng=1.0544752498414027&sw_lat=48.42364135287096&ne_lng=1.3785719295289027&ne_lat=48.67101902366632&zoom=11&ss_id=vice7x78&ss_preload=false&source=bb&page=1&s_tag=Vy7cTcr9&allow_override%5B%5D="><img src="airbnb.png"></a>
+                </div> 
+            </div>
+        </figure>
+    </div>
+</section>
+<section class="rvsp container">
+    <a name="myAnchor3" id="anchor3"></a>
+    <p class="title"><img src="leaves_left.png">RVSP<img src="leaves_right.png"></p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfH05tkUAWh42qICm5kA6xD_TMLpi0GkZ3aBQOQp52EAnjoTA/viewform?embedded=true" width="1140" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</section>
+<section class="container">
+    <a name="myAnchor4" id="anchor4"></a>
+    <p class="title"><img src="leaves_left.png">Contact<img src="leaves_right.png"></p>
+    <div class="row">
+        <figure class="col-sm-4">
+            <p class="subtitle">Nous</p>
+            <div class="box">
+                    <a href="mailto:bachmannlinda@hotmail.com"><img src="bride_icon.png" alt="" /> bachmannlinda@hotmail.com</a>
+                    <p>+33 (0) 7 52 67 39 96</p>
+                    <a href="mailto:yann.merchier@gmail.com"><img src="groom_icon.png" alt="" /> yann.merchier@gmail.com</a>
+                    <p>+33 (0) 6 99 05 65 70</p>
+            </div>
+        </figure>
+        <figure class="col-sm-4">
+            <p class="subtitle">Les Témoins De La Mariée</p>
+            <div class="box">
+                <p><img src="dress_icon.png" /> Nele Bachmann</p>
+                <p><img src="dress_icon.png" /> Anna Mazuch</p>
+                <a href="mailto:trauzeugen.linda@gmail.com"><img src="email_icon_red.png" alt="" /> trauzeugen.linda@gmail.com</a>
+            </div>
+        </figure>
+        <figure class="col-sm-4">
+            <p class="subtitle">Les Témoins du Marié</p>
+            <div class="box temoin">
+                <p><img src="bowtie_icon.png" /> Jordy Peycelon</p>
+                <p><img src="bowtie_icon.png" /> Christophe Perron</p>
+                <p><img src="bowtie_icon.png" /> Phillipe Sennhauser</p>
+                <a href="mailto:temoins.yann@gmail.com"><img src="email_icon_blue.png" alt="" /> temoins.yann@gmail.com</a>
+            </div>
+        </figure>
+    </div>
+</section>
+<footer class="container">
+    <div class="row">
+        <p class="col-sm-4">
+        Designed by Yann with ❤
+        </p>
+    </div>
+</footer>
 </body>
 </html>
 

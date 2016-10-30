@@ -1,30 +1,269 @@
-html { 
-  background: url(background.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+a{color: white}
+p{
+    color: black;
+    margin: 0px;
+    padding: 0px;
 }
 
-.element {
-    position: fixed;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+body {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    'background-color:rgba(237,239,236,0.2);
+    background-color:#26764a;
+}   
+
+header {
+    padding: 20px 0;
+    color:white;
+    margin-left: -20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
 }
-body{
-    background-color: transparent   ;  
-    font-family: 'Amatic SC', cursive;
-    font-size: 240%;
-    position:fixed;
-    top:0px;
-    bottom:0px;
-    left:0px;
-    right:0px;  
+
+header .col-sm-5{
+    font-family: 'Playfair Display', serif;
 }
-    
-p{
-    text-align: right;
-    margin-right: -11%;
-    margin-top: -10%;
+
+header a{
+    padding: 0 20px;
+    font-size: 90%;
+}
+
+header a:hover{
+    text-decoration: none;
+    color:darkgoldenrod;
+}
+
+
+header img{
+    width:25px;
+    height:15px; 
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 30px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    text-shadow: none;
+    width:20px;
+    height: 20px;
+    background-size: 1%;
+}
+
+.btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+/* Carousel */
+
+.slider {
+    position: relative;
+    height: 470px;
+    width: 1140px;
+    margin-top: 20px;   
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+}
+
+.active-slide {
+    display: block;
+}
+
+.slide img{
+    width:100%;
+    transform: translateY(-15%);
+}
+
+.slider-nav {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 65px;
+    width:1140px;
+}
+
+.slider-nav ul{
+    height: 100%;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+.container{
+    margin-bottom: 20px;
+}
+
+.container .title{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.container .subtitle{
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 15px;
+    'text-align: center;
+}
+
+row{
+    margin-top: 500px;
+}
+
+section .row .col-sm-4 p{
+    color: white;
+}
+
+section .row .col-sm-4 .box{
+    background-color: white;
+    height: 250px;
+}
+
+section .row .col-sm-4 .box p{
+    padding: 10px;
+    color: black;
+}
+
+section .row .col-sm-4 .box a{
+    padding: 10px;
+    color: black;
+    display: block;
+}
+
+section .row .col-sm-4 .temoin a{
+    padding: 5px;
+}
+
+section .row .col-sm-4 .temoin p{
+    padding: 5px;
+}
+
+section .row .col-sm-4 .box .box-image img{
+    max-height:none;
+    max-width: none;
+    width: auto;
+    height: 220px;
+    padding-top: 20px;
+    max-width: 300px;
+}
+
+section .row .col-sm-4 .box .box-image {
+    text-align: center;
+}
+
+.row img{
+  max-width:50px;
+  max-height:50px;
+  width: auto;
+  height: auto;
+}
+
+.chambre p{
+    font-size: 10px;
+    margin-bottom: -12px;
+}
+
+.chambre .name{
+    font-size: 13px;
+}
+
+.chambre .tel{
+    margin-bottom: -8px; 
+}
+
+.chambre a{
+    color: darkblue;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.rvsp{
+    text-align: center;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
 }

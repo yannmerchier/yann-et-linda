@@ -178,11 +178,21 @@ row{
     margin-top: 500px;
 }
 
+row img{
+    margin: auto;
+    display: block;
+}
+
 section .row .col-sm-4 p{
     color: white;
 }
 
 section .row .col-sm-4 .box{
+    background-color: white;
+    height: 250px;
+}
+
+section .row .col-sm-8 .box{
     background-color: white;
     height: 250px;
 }
@@ -215,8 +225,20 @@ section .row .col-sm-4 .box .box-image img{
     max-width: 300px;
 }
 
+
 section .row .col-sm-4 .box .box-image {
     text-align: center;
+}
+
+section .row .col-sm-12{
+    background-color: white;
+    height: 400px;
+}
+
+section .row .col-sm-12 img{
+    margin: auto;
+    display: block;
+    vertical-align:sub;
 }
 
 .row img{
@@ -247,6 +269,20 @@ section .row .col-sm-4 .box .box-image {
 
 .rvsp{
     text-align: center;
+}
+
+.desc1 p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 200%; 
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.desc2 p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 200%; 
+    text-align: center;
+    line-height:200px;
 }
 
 footer {
